@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ran-myur Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<header>
+		<h1>Ran-myur Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#works">作品一覧</a></li>
+				<li><a href="#about">プロフィール</a></li>
+				<li><a href="#contact">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="works">
+			<h2>作品一覧</h2>
+			<div class="cards">
+				<div class="card">
+				 <a href="https://ran-myur.github.io/mosha-portfolio-1/" target="_blank" class="phot">
+					 <img src="img/mosha-portforio-1.jpg" alt="自己紹介サイトの模写作品">
+				 </a>
+				 <h3><a href="https://ran-myur.github.io/mosha-portfolio-1/" target="_blank">mosha-portfolio-1</a></h3>
+				 <p>このサイトは自己紹介サイトを模写した作品です。</p>
+				 <ul>
+						<li>制作期間：2日</li>
+						<li>使用技術：HTML / CSS</li>
+						<li>ナビゲーションを使って、各項目にスムーズに移動できるよう設計しました。</li>
+						<li>写真にカーソルを合わせた際に、選択されていることが視覚的に分かるようホバー時の演出にこだわりました。</li>
+				 </ul>
+				</div>
+        <div class="card">
+				 <a href="https://ran-myur.github.io/mosha-portfolio-2/" target="_blank" class="phot">
+					 <img src="img/mosha-portforio-2.jpg" alt="仕事紹介の模写作品">
+				 </a>
+				 <h3><a href="https://ran-myur.github.io/mosha-portfolio-2/" target="_blank">mosha-portfolio-2</a></h3>
+				 <p>このサイトは仕事紹介のサイトを模写した作品です。</p>
+					 <ul>
+						<li>制作期間：1日</li>
+						<li>使用技術：HTML / CSS</li>
+						<li>ニュース欄を設け、伝えたいトピックスを分かりやすくまとめることを意識しました。</li>
+						<li>問い合わせ欄を作成し、フォームから入力・送信できるフォーマットを実装しました。</li>
+					</ul>
+				</div>
+
+				<div class="card">
+				 <a href="https://ran-myur.github.io/mosha-portfolio-3/" target="_blank" class="phot">
+					 <img src="img/mosha-portforio-3.jpg" alt="お店紹介の模写作品">
+				 </a>
+				 <h3><a href="https://ran-myur.github.io/mosha-portfolio-3/" target="_blank">mosha-portfolio-3</a></h3>
+				 <p>このサイトは和の美をテーマにした架空のショップサイトです。</p>
+				 <ul>
+					 <li>制作期間：2日</li>
+					 <li>使用技術：HTML / CSS</li>
+					 <li>レスポンシブ対応を意識して、スマホでも見やすくなるように設計しました。</li>
+					 <li>縦書きの日本語レイアウトに挑戦し、和風の雰囲気を表現しました。</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<h2>プロフィール</h2>
+			<p>何か自分の強みになるスキルを身につけたいと思い、Web制作の学習を始めました。
+      もともとパソコン操作が好きで、Webサイトの仕組みに興味を持ち、HTMLやCSSから勉強を始めています。
+      現在は模写サイトの制作を通して、デザインやコーディングの基礎を学んでいます。
+      今後はJavaScriptやレスポンシブ対応なども習得し、より実践的なWebサイトを作れるようになることを目指しています。<br>
+      将来的には、クライアントの思いを形にするwebサイト制作を行えるよう、スキルアップを続けていきたいです。</p>
+		</section>
+
+		<section id="contact">
+			<h2>お問い合わせ</h2>
+			<form action="https://formspree.io/f/xwpbbprv" method="POST">
+       <label for="name">お名前：</label>
+       <input type="text" name="name" required>
+
+       <label for="email">メールアドレス：</label>
+       <input type="email" name="email" required>
+
+       <label for="message">お問い合わせ内容：</label>
+       <textarea name="message" required></textarea>
+
+       <button type="submit">送信</button>
+      </form>
+
+			<div class="contact-info">
+				<h3>直接ご連絡</h3>
+				<ul>
+					<li>メール：<a href="mailto:ran.ilts.829@gmail.com">ran.ilts.829@gmail.com</a></li>
+					<li>電話：<a href="08091580829">080-9158-0829</a></li>
+				</ul>
+			</div>
+
+		</section>
+	</main>
+	<footer>
+    <p>&copy; 2025 Ran-myur</p>
+  </footer>
+</body>
+</html>
